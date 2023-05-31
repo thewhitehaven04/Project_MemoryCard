@@ -1,0 +1,10 @@
+.scoreboard__flex {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  row-gap: 5px;
+}
+
+.scoreboard__padded {
+  padding: 15px;
+}
