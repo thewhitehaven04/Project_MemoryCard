@@ -21,8 +21,8 @@ export default function Card({
   width = 250,
 }) {
   return (
-    <article className="card__flex" onClick={() => handleClick({ name })}>
-      <img
+    <article className="card__flex card" onClick={() => handleClick({ name })}>
+      <img className='card__image'
         src={imagePath}
         alt={displayName}
         height={`${height}px`}
