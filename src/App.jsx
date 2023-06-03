@@ -4,6 +4,7 @@ import { cardPropsStorage } from './service/assets';
 import Scoreboard from './components/Scoreboard';
 import Modal from './components/Modal';
 import Header from './components/Header/Header';
+import style from './app.css';
 
 function App() {
   const [score, setScore] = useState({
