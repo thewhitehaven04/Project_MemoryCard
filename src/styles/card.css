@@ -19,19 +19,21 @@
   font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
-  text-shadow: var(--text-shadow) 0px 0px 8px;
+  text-shadow: var(--text-shadow) 0px 0px 4px;
 
   color: var(--text-color); 
+  height: max-content;
 }
 
 .card {
-  padding: 10px;
   background-color: var(--background);
   box-shadow: 0px 0px 12px 2px var(--card-shadow);
   border-radius: 10px;
+  padding: 15px;
 }
 
 .card__image {
   border-radius: 10px;
   box-shadow: 0px 0px 4px 0.5px black; 
+  width: 100%; 
 }

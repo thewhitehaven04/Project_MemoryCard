@@ -14,9 +14,7 @@ export default function Gallery({ cards, reportScore }) {
   const [galleryCards, setGalleryCards] = useState(shuffle(cards));
   const [selectedCards, setSelectedCards] = useState([]);
 
-  /**
-   * @param {import('../Card').CardProps} param0
-   */
+  /** @param {import('../Card').CardProps} param0 */
   const handleClick = ({ name }) => {
     if (!selectedCards.find((card) => card.name === name)) {
       const newCard = galleryCards.find(
