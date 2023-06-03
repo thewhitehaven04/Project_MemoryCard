@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import style from './../../styles/card.css';
 
 /**
@@ -12,18 +12,25 @@ import style from './../../styles/card.css';
  */
 
 /** @param {CardProps} props */
-export default function Card({
-  name,
-  displayName,
-  imagePath,
-  handleClick,
-}) {
+export default function Card({ name, displayName, imagePath, handleClick }) {
+  const [playAnimation, setPlayAnimation] = useState(false);
+
+  const handleOwnClick = () => {
+    setPlayAnimation(true);
+    setTimeout(() => {
+      setPlayAnimation((animation) => {
+        return !animation;
+      });
+      handleClick({ name });
+    }, 200);
+  };
+
   return (
-    <article className="card__flex card" onClick={() => handleClick({ name })}>
-      <img className='card__image'
-        src={imagePath}
-        alt={displayName}
-      />
+    <article
+      className={'card__flex card' + (playAnimation ? ' card__animate' : '')}
+      onClick={handleOwnClick}
+    >
+      <img className="card__image" src={imagePath} alt={displayName} />
       <span className="card__caption">{displayName}</span>
     </article>
   );

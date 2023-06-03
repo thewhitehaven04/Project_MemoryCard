@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faXmarkCircle } from '@fortawesome/free-solid-svg-icons';
+import { faXmark } from '@fortawesome/free-solid-svg-icons';
 import style from './../../styles/dialog.css';
 import React, { useState } from 'react';
 
@@ -28,7 +28,7 @@ export default function Modal(props) {
               className="dialog-modal__button"
               onClick={handleClick}
             >
-              <FontAwesomeIcon icon={faXmarkCircle} />
+              <FontAwesomeIcon icon={faXmark} />
             </button>
           </div>
           <div className="dialog-modal__content">{props.children}</div>
