@@ -8,10 +8,10 @@
   top: 0px;
   
   background-color: var(--text-color);
-  box-shadow: 0px 2px 6px 1px var(--text-color);
+  box-shadow: 0px 1px 5px 0.3px grey; 
 }
 
 .header__flex > img {
-  height: 120px; 
+  height: 110px; 
   align-self: flex-end;
 }

@@ -4,10 +4,13 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 15px;
+  padding: 20px;
 
-  background-color: white;
-  box-shadow: 0px 0px 8px 2px rgb(77, 77, 77);
+  background-color: var(--background);
+  color: var(--text-color);
+  box-shadow: 0px 0px 4px 0.5px var(--card-shadow); 
+  border-radius: 10px;
+
   z-index: 2;
   pointer-events: all;
 }
@@ -26,17 +29,18 @@
   justify-content: space-between;
 
   padding-bottom: 10px;
-  border-bottom: 1px solid rgb(171, 171, 171);
+  border-bottom: 2px solid var(--text-color); 
 }
 
 .dialog-modal__button {
   appearance: none;
   border: none;
-  background-color: white;
+  background-color: var(--background);
   outline: none;
-  color: black;
+  color: var(--text-color);
   padding: 0px;
-  font-size: 1.5rem;
+
+  border: 1px;
 }
 
 .dialog-modal__button:hover {
@@ -44,7 +48,7 @@
 }
 
 .dialog-modal__title {
-  font-size: 1.5rem;
+  font-size: 28pt;
 }
 
 .dialog-modal__backdrop {
@@ -52,7 +56,7 @@
   width: 100vw;
   height: 100vh;
 
-  backdrop-filter: blur(4px) brightness(40%);
+  backdrop-filter: blur(6px) brightness(30%);
   z-index: 1;
   pointer-events: none;
 }

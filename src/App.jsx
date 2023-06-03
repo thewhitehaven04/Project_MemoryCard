@@ -10,7 +10,7 @@ function App() {
   const [score, setScore] = useState({
     record: 0,
     currentScore: 0,
-    hasWon: false,
+    hasWon: true,
   });
 
   const handleSelectedCards = (count) => {
@@ -23,8 +23,10 @@ function App() {
     <div id="app">
       {score.hasWon ? (
         <Modal title="Victory">
-          You've won! You've correctly guessed {score.currentScore} cards out of
-          {cardPropsStorage.length} possible.
+          <span>
+            You've won! You've correctly guessed {score.currentScore} cards out
+            of {cardPropsStorage.length} possible.
+          </span>
         </Modal>
       ) : null}
       <Header>

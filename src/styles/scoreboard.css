@@ -3,14 +3,18 @@
   flex-flow: column wrap;
   align-items: flex-end;
   row-gap: 5px;
+
+  background-color: var(--background);
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px 1px var(--card-shadow);
 }
 
 .scoreboard__flex > span {
   font-size: 1.5rem;
-  color: var(--background);
-  text-shadow: 0px 0px 1px var(--background);
+  color: var(--text-color);
+  text-shadow: 0px 0px 1px var(--text-shadow);
 }
 
 .scoreboard__padded {
-  padding: 15px;
+  padding: 7px 15px;
 }
