@@ -7,8 +7,6 @@
   column-gap: 20px;
   width: min(800px, 70%);
   margin: 0 auto;
-
-  background-color: white;
 }
 
 .gallery__padded {
