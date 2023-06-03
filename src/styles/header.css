@@ -1,0 +1,17 @@
+.header__flex {
+  display: flex;
+  flex-flow: row nowrap; 
+  align-items: center;
+  justify-content: space-around;
+  
+  position: sticky;
+  top: 0px;
+  
+  background-color: var(--text-color);
+  box-shadow: 0px 2px 6px 1px var(--text-color);
+}
+
+.header__flex > img {
+  height: 120px; 
+  align-self: flex-end;
+}

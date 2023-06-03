@@ -3,6 +3,7 @@ import Gallery from './components/Gallery';
 import { cardPropsStorage } from './service/assets';
 import Scoreboard from './components/Scoreboard';
 import Modal from './components/Modal';
+import Header from './components/Header/Header';
 
 function App() {
   const [score, setScore] = useState({
@@ -25,7 +26,9 @@ function App() {
           {cardPropsStorage.length} possible.
         </Modal>
       ) : null}
-      <Scoreboard {...score}></Scoreboard>
+      <Header>
+        <Scoreboard {...score}></Scoreboard>
+      </Header>
       <Gallery cards={cardPropsStorage} reportScore={handleSelectedCards} />
     </div>
   );
