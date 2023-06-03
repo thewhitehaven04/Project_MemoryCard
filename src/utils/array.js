@@ -1,10 +1,7 @@
 /**
  * @template T
- */
-
-/**
- * @param {Object[]} arr
- * @returns {Object[]}
+ * @param {T[]} arr
+ * @returns {T[]}
  */
 function shuffle(arr) {
   return arr

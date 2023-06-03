@@ -1,6 +1,6 @@
 /**
  * @typedef GalleryProps
- * @property {import('../Card').CardProps[]} cards
+ * @property {import('../../service/assets').CardData[]} cards
  * @property {function(Number): void} reportScore
  */
 
@@ -11,7 +11,7 @@ import { shuffle } from '../../utils/array';
 
 /** @param {GalleryProps} param0 */
 export default function Gallery({ cards, reportScore }) {
-  const [galleryCards, setGalleryCards] = useState(cards);
+  const [galleryCards, setGalleryCards] = useState(shuffle(cards));
   const [selectedCards, setSelectedCards] = useState([]);
 
   /**
