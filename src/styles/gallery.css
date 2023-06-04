@@ -1,3 +1,8 @@
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
 .gallery__grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
@@ -7,6 +12,14 @@
   column-gap: 20px;
   width: min(800px, 70%);
   margin: 0 auto;
+
+  height: calc(100vh - 110px);
+}
+
+.gallery__scrollable {
+  scroll-snap-type: y mandatory;
+  overflow-y: auto;
+  scrollbar-width: none;
 }
 
 .gallery__padded {

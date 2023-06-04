@@ -10,8 +10,9 @@ function App() {
   const [score, setScore] = useState({
     record: 0,
     currentScore: 0,
-    hasWon: true,
+    hasWon: false,
   });
+
 
   const handleSelectedCards = (count) => {
     if (count > score.record)

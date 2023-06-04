@@ -4,6 +4,8 @@
   justify-content: flex-start; 
 
   row-gap: 0.5rem;
+
+  scroll-snap-align: center;
 }
 
 .card__caption {

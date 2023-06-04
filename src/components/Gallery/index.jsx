@@ -31,7 +31,7 @@ export default function Gallery({ cards, reportScore }) {
   };
 
   return (
-    <section className="gallery__grid gallery__padded">
+    <section className="gallery__grid gallery__padded gallery__scrollable">
       {galleryCards.map((card) => (
         <Card key={card.name} {...card} handleClick={handleClick} />
       ))}
