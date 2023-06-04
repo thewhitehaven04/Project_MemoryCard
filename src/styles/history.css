@@ -2,16 +2,23 @@
   display: flex;
   flex-flow: column nowrap;
   
-  position: sticky;
-
   padding: 10px;
 
-  background-color: var(--background);
-  color: var(--text-color);
+  background-color: var(--text-shadow);
+  color: var(black);
 
   border-radius: 10px;
   box-shadow: 0px 0px 6px 1px black;
 
   grid-column: -2 span 1;
   align-self: flex-start;
+  height: min-content;
+  max-height: 80%;
+  overflow-y: scroll;
+}
+
+
+.history__title {
+  font-size: 18pt;
+  text-transform: uppercase;
 }

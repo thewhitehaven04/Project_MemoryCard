@@ -4,8 +4,8 @@ import { cardPropsStorage } from './service/assets';
 import Scoreboard from './components/Scoreboard';
 import Header from './components/Header/Header';
 import style from './app.css';
-import History from './components/History';
 import { WinModal } from './components/WinModal';
+import Stats from './components/Stats';
 
 function App() {
   const [score, setScore] = useState({ currentScore: 0, record: 0 });
@@ -44,7 +44,7 @@ function App() {
       </Header>
       <main className="app__main">
         <Gallery cards={cardPropsStorage} reportScore={handleSelectedCards} />
-        <History scores={history}></History>
+        <Stats scores={history}></Stats>
       </main>
     </div>
   );

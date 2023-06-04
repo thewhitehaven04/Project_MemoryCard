@@ -15,11 +15,11 @@ export default function ListPane(props) {
   return (
     <div>
       <span>{props.title}</span>
-      <ul className='listpane__flex'>
+      <ol className='listpane__flex'>
         {props.listItems.map((item) => (
           <li key={crypto.randomUUID()}>{item}</li>
         ))}
-      </ul>
+      </ol>
     </div>
   );
 }

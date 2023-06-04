@@ -1,8 +1,7 @@
 .listpane__flex {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column-reverse nowrap;
   row-gap: 10px;
 
-  list-style-type: none;
   color: inherit;
 }
