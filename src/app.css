@@ -1,9 +1,18 @@
 #app {
   background: url('./resources/images/background.png') no-repeat center;
   background-size: cover;
+
+  height: 100vh;
 }
 
-.app__main {
+#app > header {
+  height: 140px;
+}
+
+#app > main {
+  height: calc(100% - 140px);
   display: grid;
-  grid-template-columns: repeat(3, 1fr) 200px;
+  grid-template-columns: 1fr 220px;
+  padding: 20px 40px;
+  gap: 20px;
 }

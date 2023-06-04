@@ -5,26 +5,17 @@
 
 .gallery__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   align-items: stretch;
 
-  row-gap: 30px;
-  column-gap: 20px;
-  width: min(800px, 70%);
   margin: 0 auto;
-
-  height: calc(100vh - 110px);
-
-
-  grid-column: 1 / span 3;
+  padding: 10px;
+  gap: 15px;
+  grid-column: 1;
 }
 
 .gallery__scrollable {
   scroll-snap-type: y mandatory;
   overflow-y: auto;
   scrollbar-width: none;
-}
-
-.gallery__padded {
-  padding: 15px;
 }
