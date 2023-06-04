@@ -1,13 +1,11 @@
 /**
  * @readonly
- * @enum {String} ListOrder 
+ * @enum {String}
  */
+const ListOrder = Object.freeze({
+  asc: 'ascending',
+  desc: 'descending',
+  none: 'none',
+});
 
-/**
- * @module
- * @exports ListOrder
- */
-
-export const listOrder = Object.freeze(
-  { asc: 'ascending', desc: 'descending' }
-)
+export { ListOrder };
