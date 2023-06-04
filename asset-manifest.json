@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Project_MemoryCard/static/css/main.4f21f48f.css",
-    "main.js": "/Project_MemoryCard/static/js/main.33afceae.js",
+    "main.js": "/Project_MemoryCard/static/js/main.1d205472.js",
     "static/media/background_2.png": "/Project_MemoryCard/static/media/background_2.0b67b3a59fdcee4278e4.png",
     "static/media/OwariHanekawa.png": "/Project_MemoryCard/static/media/OwariHanekawa.1006818f195452725b74.png",
     "static/media/TsukihiAraragi.png": "/Project_MemoryCard/static/media/TsukihiAraragi.e1b348bb90804e90e446.png",
@@ -18,10 +18,10 @@
     "static/media/koyomi_araragi.jpeg": "/Project_MemoryCard/static/media/koyomi_araragi.e7f9342a04391a1e3aeb.jpeg",
     "index.html": "/Project_MemoryCard/index.html",
     "main.4f21f48f.css.map": "/Project_MemoryCard/static/css/main.4f21f48f.css.map",
-    "main.33afceae.js.map": "/Project_MemoryCard/static/js/main.33afceae.js.map"
+    "main.1d205472.js.map": "/Project_MemoryCard/static/js/main.1d205472.js.map"
   },
   "entrypoints": [
     "static/css/main.4f21f48f.css",
-    "static/js/main.33afceae.js"
+    "static/js/main.1d205472.js"
   ]
 }
