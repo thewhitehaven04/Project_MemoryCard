@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Project_MemoryCard/static/css/main.4f21f48f.css",
+    "main.js": "/Project_MemoryCard/static/js/main.33afceae.js",
+    "static/media/background_2.png": "/Project_MemoryCard/static/media/background_2.0b67b3a59fdcee4278e4.png",
+    "static/media/OwariHanekawa.png": "/Project_MemoryCard/static/media/OwariHanekawa.1006818f195452725b74.png",
+    "static/media/TsukihiAraragi.png": "/Project_MemoryCard/static/media/TsukihiAraragi.e1b348bb90804e90e446.png",
+    "static/media/KissshotAcerolaOrionHeartUnderBlade.png": "/Project_MemoryCard/static/media/KissshotAcerolaOrionHeartUnderBlade.cc336db94941345ba7d6.png",
+    "static/media/IzukoGaen.png": "/Project_MemoryCard/static/media/IzukoGaen.129bd68f0de3b930a6f4.png",
+    "static/media/YotsugiOnonoki.png": "/Project_MemoryCard/static/media/YotsugiOnonoki.a157371a831e3267be1d.png",
+    "static/media/sodachipeaceful.png": "/Project_MemoryCard/static/media/sodachipeaceful.baa7b8d8acc2052ea7d6.png",
+    "static/media/BakeSenjougahara.png": "/Project_MemoryCard/static/media/BakeSenjougahara.b7612741eff32d2805ab.png",
+    "static/media/MemeOshino.png": "/Project_MemoryCard/static/media/MemeOshino.11845318385094155087.png",
+    "static/media/KaikiDeishuu.png": "/Project_MemoryCard/static/media/KaikiDeishuu.e318bf872d04c3f4e152.png",
+    "static/media/header_2.png": "/Project_MemoryCard/static/media/header_2.6cd9898a554862928745.png",
+    "static/media/OshinoOugi.png": "/Project_MemoryCard/static/media/OshinoOugi.2e6dc8df00436a92dd49.png",
+    "static/media/KarenAraragi.png": "/Project_MemoryCard/static/media/KarenAraragi.7690c051acfa4f94e4f2.png",
+    "static/media/koyomi_araragi.jpeg": "/Project_MemoryCard/static/media/koyomi_araragi.e7f9342a04391a1e3aeb.jpeg",
+    "index.html": "/Project_MemoryCard/index.html",
+    "main.4f21f48f.css.map": "/Project_MemoryCard/static/css/main.4f21f48f.css.map",
+    "main.33afceae.js.map": "/Project_MemoryCard/static/js/main.33afceae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f21f48f.css",
+    "static/js/main.33afceae.js"
+  ]
+}
