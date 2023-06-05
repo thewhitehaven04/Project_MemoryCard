@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Project_MemoryCard/static/css/main.0c64c313.css",
+    "main.css": "/Project_MemoryCard/static/css/main.9946bbca.css",
     "main.js": "/Project_MemoryCard/static/js/main.02ed09f8.js",
     "static/media/background.png": "/Project_MemoryCard/static/media/background.f3de3c0eade0a9cd9a25.png",
     "static/media/OwariHanekawa.png": "/Project_MemoryCard/static/media/OwariHanekawa.1006818f195452725b74.png",
@@ -17,11 +17,11 @@
     "static/media/KarenAraragi.png": "/Project_MemoryCard/static/media/KarenAraragi.7690c051acfa4f94e4f2.png",
     "static/media/koyomi_araragi.jpeg": "/Project_MemoryCard/static/media/koyomi_araragi.e7f9342a04391a1e3aeb.jpeg",
     "index.html": "/Project_MemoryCard/index.html",
-    "main.0c64c313.css.map": "/Project_MemoryCard/static/css/main.0c64c313.css.map",
+    "main.9946bbca.css.map": "/Project_MemoryCard/static/css/main.9946bbca.css.map",
     "main.02ed09f8.js.map": "/Project_MemoryCard/static/js/main.02ed09f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c64c313.css",
+    "static/css/main.9946bbca.css",
     "static/js/main.02ed09f8.js"
   ]
 }
